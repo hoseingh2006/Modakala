@@ -1,0 +1,22 @@
+@font-face {
+    font-family: yekan;
+    src: url(../font/Qs_Iranyekan.ttf);
+}
+
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: yekan, sans-serif;
+}
+
+
+
+
+header{
+
+}
+.header-img{}
