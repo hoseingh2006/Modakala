@@ -5,13 +5,233 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <script defer src="js/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
     <title>Document</title>
   </head>
 
   <body>
     <header class="header">
       <div class="header-img"></div>
-      <div class="header-img"></div>
     </header>
+    <div class="brands"></div>
+    <footer class="footer">
+      <div class="fotter-up">
+        <div class="fotter-header">
+          از آخرین تخفیف ها و جشنواره های ما مطلع شوید:
+        </div>
+        <div class="fotter-social-links">
+          <a href="">
+            <div class="social-links-item home">
+              <ion-icon
+                class="km-icon social-icon"
+                name="home-outline"
+              ></ion-icon>
+              <span>خانه</span>
+            </div>
+          </a>
+          <a href="">
+            <div class="social-links-item">
+              <ion-icon
+                class="km-icon social-icon"
+                name="grid-outline"
+              ></ion-icon>
+              <span>خانه</span>
+            </div>
+          </a>
+          <a href="">
+            <div class="social-links-item">
+              <ion-icon
+                class="km-icon social-icon"
+                name="search-outline"
+              ></ion-icon>
+              <span>خانه</span>
+            </div>
+          </a>
+          <a href="">
+            <div class="social-links-item">
+              <ion-icon
+                class="km-icon social-icon"
+                name="cart-outline"
+              ></ion-icon>
+              <span>خانه</span>
+            </div>
+          </a>
+          <a href="">
+            <div class="social-links-item">
+              <ion-icon
+                class="km-icon social-icon"
+                name="person-outline"
+              ></ion-icon>
+              <span>خانه</span>
+            </div>
+          </a>
+          <a href="">
+            <div class="social-links-item">
+              <ion-icon
+                class="km-icon social-icon"
+                name="menu-outline"
+              ></ion-icon>
+              <span>خانه</span>
+            </div>
+          </a>
+        </div>
+        <div class="fotter-email-box">
+          <form action="#">
+            <input
+              class=""
+              type="email"
+              placeholder="ایمل خود را وارد کنید ..."
+            />
+            <button type="submit">
+              <ion-icon
+                class="km-icon icon-check"
+                name="checkmark-outline"
+              ></ion-icon>
+            </button>
+          </form>
+        </div>
+        <div class="fotter-download-links">
+          <a href="#"
+            ><img src="./images/androidAppDownloadBtn.png" alt=""
+          /></a>
+          <a href="#"><img src="./images/iosAppDownloadBtn.png" alt="" /></a>
+          <a href="#">
+            <img src="./images/windowsAppDownloadBtn.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="fotter-center grid grid--5-cols">
+        <div class="footer-data">
+          <div class="data-phone">
+            <div class="data-phone-up">
+              <ion-icon class="km-icon" name="call-outline"></ion-icon
+              ><span class="km-title">تلفن تماس:</span>
+            </div>
+            <div class="data-phone-down">
+              <div class="km-number">02191300192</div>
+              <div class="km-number">04137226941</div>
+              <div class="km-number">09373213701</div>
+            </div>
+          </div>
+          <div class="data-email">
+            <ion-icon class="km-icon icon-email" name="mail-outline"></ion-icon>
+            <div class="km-email">info@modakala.com</div>
+          </div>
+          <div class="data-address">
+            <ion-icon
+              class="km-icon icon-email"
+              name="location-outline"
+            ></ion-icon>
+            <div class="km-address-title">
+              خیابان قدس ، بالاتر از شهرداری ، پلاک ۲۱۵
+            </div>
+          </div>
+        </div>
+        <div class="footer-link">
+          <div class="km-header">لینک های کاربردی</div>
+          <div class="km-links">
+            <div class="link-item">
+              <ion-icon
+                class="km-icon icon-link"
+                name="radio-button-on"
+              ></ion-icon>
+              <div class="km-link-title"><a href="#">ارسال و مرجوعی</a></div>
+            </div>
+            <div class="link-item">
+              <ion-icon
+                class="km-icon icon-link"
+                name="radio-button-on"
+              ></ion-icon>
+              <div class="km-link-title"><a href="#"> حریم خصوصی</a></div>
+            </div>
+            <div class="link-item">
+              <ion-icon
+                class="km-icon icon-link"
+                name="radio-button-on"
+              ></ion-icon>
+              <div class="km-link-title"><a href="#"> شرایط استفاده </a></div>
+            </div>
+            <div class="link-item">
+              <ion-icon
+                class="km-icon icon-link"
+                name="radio-button-on"
+              ></ion-icon>
+              <div class="km-link-title"><a href="#">درباره ما</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-service">
+          <div class="km-header">خدمات بیشتر</div>
+          <div class="km-links">
+            <div class="link-item">
+              <ion-icon
+                class="km-icon icon-link"
+                name="radio-button-on"
+              ></ion-icon>
+              <div class="km-link-title">
+                <a href="#"> تور مجازی فروشگاه </a>
+              </div>
+            </div>
+            <div class="link-item">
+              <ion-icon
+                class="km-icon icon-link"
+                name="radio-button-on"
+              ></ion-icon>
+              <div class="km-link-title"><a href="#"> بلاگ مقالات </a></div>
+            </div>
+            <div class="link-item">
+              <ion-icon
+                class="km-icon icon-link"
+                name="radio-button-on"
+              ></ion-icon>
+              <div class="km-link-title">
+                <a href="#"> همکاری در فروش </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-namad">
+          <div class="km-content">
+            <a href="#">
+              <img src="./images/etehadieh.png" alt="" />
+            </a>
+          </div>
+          <div class="km-content">
+            <a href="#">
+              <img src="./images/logo (1).png" alt="" />
+            </a>
+          </div>
+          <div class="km-content">
+            <a href="#">
+              <img src="./images/logo.png" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="footer-description">
+          <div class="description-up">
+            <ion-icon class="km-icon icon-gume" name="mail-outline"></ion-icon>
+            <div class="description-title">
+              فروشگاه لوازم آرایشی و بهداشتی مداکالا
+            </div>
+          </div>
+          <div class="description-down">
+            فروشگاه مدا کالا در سال ٨۴ در زمینه آرایشی بهداشتی تاسیس شد. نیاز
+            روز افزون جامعه به اطلاعات صحیح در مورد محصولات بهداشتی آرایشی بر
+            هیچ کس پوشیده نیست، کادر مجرب فروشگاه سنتی مدا کالا تجربیات یک دهه
+            خود را با نیاز روز افزون جامعه گره زده اند و بعد از ده سال خوش نامی
+            در این زمینه در سال ٩۴ وارد فضای مجازی شد به این ترتیب سایت فروشگاه
+            اینترنتی مدا کالا راه اندازی شد.
+          </div>
+        </div>
+      </div>
+      <div class="fotter-down">copyright</div>
+    </footer>
   </body>
 </html>
